@@ -176,7 +176,9 @@ overflow: hidden;
 
 .over{
  overflow:hidden;}
- 
+ .owl-nav,.owl-dots{
+display:hidden;
+}
 /* Styles for mobile (sm) */
 @media (max-width: 576px) {
   .row{
@@ -187,6 +189,7 @@ overflow: hidden;
     height: 336px;
  
 }
+
 }
 
 /* Styles for tablets (sm) */
