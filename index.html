@@ -24,7 +24,7 @@
     >
       <header id="home" class="hrm-navbar" role="banner">
         <div class="container bg-image" data-aos="fade-down">
-          <div class="row">
+          <div class="row flex-row">
             <div class="col-3 hrm-logo">
               <a href="#home" class="animsition-link"
                 ><img
@@ -54,7 +54,7 @@
                 <li><a href="#package" class="animsition-link">Packages</a></li>
                 <li><a href="login.html" class="animsition-link">Login</a></li>
                 <li><a href="registration.html" class="animsition-link">Registration</a></li>
-                <li><a href="#contact" class="animsition-link btn btn-primary py-3 px-5" >Contact Us</a></li>
+                <li><a href="#contact" class="animsition-link btn btn-primary " >Contact Us</a></li>
               </ul>
               
             </nav>
@@ -66,7 +66,7 @@
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-lg-7 order-lg-0">
-              <h3 class="mb-3 text-white" data-aos="fade-up">
+              <h3 class=" mb-3 text-white" data-aos="fade-up">
                 Streamline your HR processes & simplify your workforce
                 management
               </h3>
@@ -92,428 +92,222 @@
         </div>
       </div>
 
-      <div id="about" class="hrm-section" data-aos="fade-up">
+      <div id="about" class="hrm-section pb-5" data-aos="fade-up">
         <div class="col-12 text-center pt-5">
           <h2>Features</h2>
-        </div>
-          <div class="container">
-            <div class="row align-items-center justify-content-between">
-              <div class="col-md-12 hrm-overlap">
-                <div class="owl-carousel wide-slider-testimonial">
-                  <div class="item row">
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="600"
-                    >
-                      <div
-                        class="media block-icon-1 d-block text-left border-round"
-                      >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/payroll.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
+        </div> 
+        
+        <div class="row d-flex justify-content-evenly">
+                <div id="owl-demo" class="owl-carousel owl-theme col-md-12" > 
+                  <!-- Payroll -->
+                  <div class=" col-md-4"> 
+                    <div class="item d-block text-left" data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body"> 
+                        <div class="icon  ">
                           <h3 class="h5 mb-4">Payroll</h3>
-                          <p>
-                            Our solution automates the entire payroll process,
-                            from calculating salaries and taxes to generating
-                            pay slips. With accurate and timely payroll
-                            processing, you can ensure your employees are paid
-                            correctly and on time.
-                          </p>
+                          <img src="images/payroll.svg" alt="Image" class="img-fluid"  />
                         </div>
+                        <p> Our solution automates the entire payroll process, from calculating salaries and taxes to generating pay slips. With accurate and timely payroll processing, you can ensure your employees are paid correctly and on time.</p>
                       </div>
                     </div>
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="700"
-                    >
-                      <div class="media block-icon-1 d-block text-left border-round" >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/attendance.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
+                  
+                  </div>
+                  <!-- Attendance -->
+                  <div class=" col-md-4">
+                      <div class="item d-block text-left  "data-aos="fade-up" data-aos-delay="600" >
                         <div class="media-body">
+                        <div class="icon  ">
                           <h3 class="h5 mb-4">Attendance</h3>
-                          <p>
-                            Our system allows employees to mark their attendance
-                            digitally via app or web portal, while managers can
-                            easily monitor attendance records, track leave
-                            balances, and generate insightful reports.
-                          </p>
+                          <img src="images/attendance.svg" alt="Image" class="img-fluid" />
+                        </div>
+                          <p>Our system allows employees to mark their attendance digitally via app or web portal, while managers can easily monitor attendance records, track leave balances, and generate insightful reports.</p>
                         </div>
                       </div>
-                    </div>
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="800"
-                    >
-                      <div class="media block-icon-1 d-block text-left border-round" >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/app-support.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">App Support</h3>
-                          <p>
-                            With our dedicated app support, your workforce can
-                            stay connected, manage their profiles, and perform
-                            essential tasks like attendance, leaves, exit pass,
-                            anytime anywhere. Our app also have advance features
-                            like biometric login, single device locking, etc.
-                          </p>
-                        </div>
+                    
+                  </div>
+                  <!-- App Support -->
+                  <div class=" col-md-4">
+                    <div class="item d-block text-left  "data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body">
+                      <div class="icon  ">
+                        <h3 class="h5 mb-4">App Support</h3>
+                        <img  src="images/app-support.svg" alt="Image" class="img-fluid" />
+                      </div>
+                        <p>With our dedicated app support, your workforce can stay connected, manage their profiles, and perform essential tasks like attendance, leaves, exit pass, anytime anywhere. Our app also have advance features like biometric login, single device locking, etc.</p>
+                      </div>
+                  </div>
+                  </div>
+                  <!-- Recruitment & Retirement -->
+                  <div class=" col-md-4">
+                    <div class="item d-block text-left  " data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body">
+                      <div class="icon  ">
+                        <img  src="images/recrutment.svg" alt="Image" class="img-fluid" />
+                        <h3 class="h5 mb-4">Recruitment & Retirement</h3>
+                      </div>
+                        <p>Simplify the hiring process, streamline retirements, and ensure a smooth transition for both incoming and outgoing employees.</p>
+                      </div>
+                  </div>
+                  </div> 
+                  <!-- Compliance -->
+                  <div class=" col-md-4">
+                    <div class="item d-block text-left  " data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body">
+                      <div class="icon  ">
+                        <h3 class="h5 mb-4">Compliance</h3>
+                        <img  src="images/complience.svg"  alt="Image" class="img-fluid"  />
+                      </div>
+                        <p>Our HRMS software is equipped with robust compliance management features, helping you navigate complex employment laws and regulations.</p>
                       </div>
                     </div>
                   </div>
-
-                  <div class="item row">
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="800"
-                    >
-                      <div class="media block-icon-1 d-block text-left border-round" >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/app-support.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">App Support</h3>
-                          <p>
-                            With our dedicated app support, your workforce can
-                            stay connected, manage their profiles, and perform
-                            essential tasks like attendance, leaves, exit pass,
-                            anytime anywhere. Our app also have advance features
-                            like biometric login, single device locking, etc.
-                          </p>
-                        </div>
+                  <!-- Asset Management           -->
+                  <div class=" col-md-4">
+                    <div  class="item d-block text-left  " data-aos="fade-up" data-aos-delay="600" >
+                      <div class="media-body">
+                      <div class="icon  ">
+                        <h3 class="h5 mb-4">Asset Management</h3>
+                        <img src="images/asset-management.svg" alt="Image" class="img-fluid"  />
                       </div>
-                    </div>
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="700"
-                    >
-                      <div class="media block-icon-1 d-block text-left border-round" >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/recrutment.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">Recruitment & Retirement</h3>
-                          <p>
-                            Simplify the hiring process, streamline retirements,
-                            and ensure a smooth transition for both incoming and
-                            outgoing employees.
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="600"
-                    >
-                      <div class="media block-icon-1 d-block text-left border-round" >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/complience.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">Compliance</h3>
-                          <p>
-                            Our HRMS software is equipped with robust compliance
-                            management features, helping you navigate complex
-                            employment laws and regulations.
-                          </p>
-                        </div>
+                        <p>Effectively track and manage your organization's valuable assets with our asset management feature.</p>
                       </div>
                     </div>
                   </div>
-
-                  <div class="item row">
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="800"
-                    >
-                      <div
-                        class="media block-icon-1 d-block text-left border-round"
-                      >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/job-managment.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">Job Management</h3>
-                          <p>
-                            Enhance your team's productivity and communication
-                            with our job management feature.
-                          </p>
-                        </div>
-                      </div>
+                  <!-- Job Management -->
+                  <div class=" col-md-4">
+                    <div  class="item d-block text-left  " data-aos="fade-up" data-aos-delay="600" >
+                      <div class="media-body">
+                    <div class="icon  ">
+                      <h3 class="h5 mb-4">Job Management</h3>
+                      <img src="images/job-managment.svg" alt="Image"  class="img-fluid" />
                     </div>
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="700"
-                    >
-                      <div
-                        class="media block-icon-1 d-block text-left border-round"
-                      >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/recrutment.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">Recruitment & Retirement</h3>
-                          <p>
-                            Simplify the hiring process, streamline retirements,
-                            and ensure a smooth transition for both incoming and
-                            outgoing employees.
-                          </p>
-                        </div>
-                      </div>
+                      <p>Enhance your team's productivity and communication with our job management feature.</p>
                     </div>
-                    <div
-                      class="col-md-4 d-flex"
-                      data-aos="fade-up"
-                      data-aos-delay="600"
-                    >
-                      <div
-                        class="media block-icon-1 d-block text-left border-round"
-                      >
-                        <div class="icon mb-3">
-                          <img
-                            src="images/asset-management.svg"
-                            alt="Image"
-                            class="img-fluid"
-                          />
-                        </div>
-                        <div class="media-body">
-                          <h3 class="h5 mb-4">Asset Management</h3>
-                          <p>
-                            Effectively track and manage your organization's
-                            valuable assets with our asset management feature.
-                          </p>
-                        </div>
-                      </div>
+                  </div>
+                    
+                  </div>
+                  <!-- KPIs (Key Performance Indicators) -->
+                  <div class=" col-md-4">
+                    <div class="item d-block text-left  " data-aos="fade-up" data-aos-delay="600" >
+                      <div class="media-body">
+                    <div class="icon  ">
+                      <h3 class="h5 mb-4">KPIs (Key Performance Indicators)</h3>
+                      <img src="images/kpi.svg" alt="Image"  class="img-fluid" />
                     </div>
+                      <p>Our HRMS software enables you to define and monitor key performance indicators specific to your organization's goals and objectives</p>
+                    </div>
+                  </div>
+                    
                   </div>
                 </div>
-              </div>
             </div>
-          </div>
+         </div>
+        
+
+        <div  class="d-flex justify-content-center " data-aos="fade-up">
+          <img src="./images/Hero.png" class="img-fluid" />
         </div>
 
-        <div  class=" d-flex justify-content-center " data-aos="fade-up">
-          <img src="./images/Hero.png" />
-        </div>
 
-
-      <div id="package" class="hrm-section pt-5 pb-5">
-        <div class="hrm-section container">
-          <div class="row">
-  
-                <div class="col-12 text-center mb-5">
+      <div id="package" class="hrm-section  pb-5" data-aos="fade-up">
+        <div class="col-12 text-center pt-5">
+        
                   <h2>Packages</h2>
                 </div>
-                <div class="row">
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
-                  <div class="media block-icon-1 d-block text-left" id="block-price">
-                    <div class="media-body">
-                      <h3 class="h5 mb-4">Basic Plan</h3>
-                      <div class="height d-flex justify-content-center align-items-center">
-                        <div class="card p-3">
-                          <div class="d-flex justify-content-between align-items-center">
-                            <div class="mt-2">
-                              <h4 class="text-uppercase">Payroll Management</h4>
-                              <div class="mt-5">
-                                <h5 class="text-uppercase mb-0">Blanda Matt</h5>
-                                <h1 class="main-heading mt-0">silver</h1>
-                                <div class="d-flex flex-row user-ratings">
-                                  <div class="ratings">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                  </div>
-                                  <h6 class="text-muted ml-1">4/5</h6>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="image">
-                              <img src="images/NicePng_package-png_1244003.png" width="100" />
-                            </div>
-                          </div>
-
-                          <div class="d-flex justify-content-between align-items-center mt-2 mb-2" >
-                            <span>Available colors</span>
-                            <div class="colors">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                            </div>
-                          </div>
-
-                          <p>A great option weather you are at office or at home. </p>
-
-                          <button class="btn btn-primary py-3 px-5"> Enquire </button>
+                <div class="row d-flex justify-content-evenly">
+                 
+                  <div class=" col-md-4 "> 
+                    <div  class=" item text-left" data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body"> 
+                        <div class="icon  ">
+                          <h3 class="h5 mb-4">Payroll Management</h3>
+                          <img class="img-fluid" src="images/NicePng_package-png_1244003.png" width="100" />
                         </div>
+                        <div class="d-flex flex-column mt-2 mb-2" > 
+                          <label class="d-flex justify-content-between" for="Add-on-1"> App
+                            <input type="checkbox" id="Add-on-1" name="Add-on-1" value="App" disabled="true"  >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-2"> Compliance
+                            <input type="checkbox" id="Add-on-2" name="Add-on-2" value="Compliance" disabled="true" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-3"> Asset Management
+                            <input type="checkbox" id="Add-on-3" name="Add-on-3" value="Asset-Management" disabled="true" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-4"> KPI
+                            <input type="checkbox" id="Add-on-4" name="Add-on-4" value="KPI" disabled="true" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-5"> Job Management
+                            <input type="checkbox" id="Add-on-5" name="Add-on-5" value="Job-Management" disabled="true" >
+                          </label>
+                        </div>
+                        <button class="btn btn-primary py-3 px-5"> Enquire </button>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="700">
-                  <div class="media block-icon-1 d-block text-left" id="block-price" >
-                    <div class="media-body">
-                      <h3 class="h5 mb-4">Gold Plan</h3>
-                      <div class="height d-flex justify-content-center align-items-center" >
-                        <div class="card p-3">
-                          <div class="d-flex justify-content-between align-items-center" >
-                            <div class="mt-2">
-                              <h4 class="text-uppercase">Ramee</h4>
-                              <div class="mt-5">
-                                <h5 class="text-uppercase mb-0">Blanda Matt</h5>
-                                <h1 class="main-heading mt-0">Gold</h1>
-                                <div class="d-flex flex-row user-ratings">
-                                  <div class="ratings">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                  </div>
-                                  <h6 class="text-muted ml-1">4/5</h6>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="image">
-                              <img
-                                src="images/NicePng_package-png_1243809.png"
-                                width="100"
-                              />
-                            </div>
-                          </div>
-
-                          <div
-                            class="d-flex justify-content-between align-items-center mt-2 mb-2"
-                          >
-                            <span>Available colors</span>
-                            <div class="colors">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                            </div>
-                          </div>
-
-                          <p>
-                            A great option weather you are at office or at home.
-                          </p>
-
-                          <button class="btn btn-primary py-3 px-5">
-                            Enquire
-                          </button>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                  <!-- .block-icon-1 -->
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-delay="800">
-                  <div
-                    class="media block-icon-1 d-block text-left"
-                    id="block-price"
-                  >
-                    <div class="media-body">
-                      <h3 class="h5 mb-4">Diamond Plan</h3>
-                      <div
-                        class="height d-flex justify-content-center align-items-center"
-                      >
-                        <div class="card p-3">
-                          <div
-                            class="d-flex justify-content-between align-items-center"
-                          >
-                            <div class="mt-2">
-                              <h4 class="text-uppercase">Ramee</h4>
-                              <div class="mt-5">
-                                <h5 class="text-uppercase mb-0">Blanda Matt</h5>
-                                <h1 class="main-heading mt-0">Diamond</h1>
-                                <div class="d-flex flex-row user-ratings">
-                                  <div class="ratings">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                  </div>
-                                  <h6 class="text-muted ml-1">4/5</h6>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="image">
-                              <img src="images/4630165774.png" width="00" />
-                            </div>
-                          </div>
-
-                          <div
-                            class="d-flex justify-content-between align-items-center mt-2 mb-2"
-                          >
-                            <span>Available colors</span>
-                            <div class="colors">
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                            </div>
-                          </div>
-
-                          <p>
-                            A great option weather you are at office or at home.
-                          </p>
-
-                          <button class="btn btn-primary py-3 px-5">
-                            Enquire
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- .block-icon-1 -->
-                </div>
-                </div>
                 
-          </div>
+                  <div class=" col-md-4 "> 
+                     <div  class=" item  text-left" data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body"> 
+                        <div class="icon  ">
+                          <h3 class="h5 mb-4">Payroll Management + Attendance</h3>
+                          <img class="img-fluid" src="images/NicePng_package-png_1243809.png" width="100" />
+                        </div>
+                        <div class="d-flex flex-column mt-2 mb-2" > 
+                          <label class="d-flex justify-content-between" for="Add-on-1"> App
+                            <input type="checkbox" id="Add-on-1" name="Add-on-1" value="App" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-2"> Compliance
+                            <input type="checkbox" id="Add-on-2" name="Add-on-2" value="Compliance" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-3"> Asset Management
+                            <input type="checkbox" id="Add-on-3" name="Add-on-3" value="Asset-Management" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-4"> KPI
+                            <input type="checkbox" id="Add-on-4" name="Add-on-4" value="KPI" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-5"> Job Management
+                            <input type="checkbox" id="Add-on-5" name="Add-on-5" value="Job-Management" >
+                          </label>
+                        </div>
+                        <button class="btn btn-primary py-3 px-5"> Enquire </button>
+                      </div>
+                    </div>
+                  </div>
+               
+                  <div class=" col-md-4 "> 
+                     <div  class=" item  text-left" data-aos="fade-up" data-aos-delay="600">
+                      <div class="media-body"> 
+                        <div class="icon  ">
+                          <h3 class="h5 mb-4">Payroll Management + Attendance + Recruitment & Retirement</h3>
+                          <img class="img-fluid" src="images/4630165774.png" width="100" />
+                        </div>
+                        <div class="d-flex flex-column mt-2 mb-2" > 
+                          <label class="d-flex justify-content-between" for="Add-on-1"> App
+                            <input type="checkbox" id="Add-on-1" name="Add-on-1" value="App" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-2"> Compliance
+                            <input type="checkbox" id="Add-on-2" name="Add-on-2" value="Compliance" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-3"> Asset Management
+                            <input type="checkbox" id="Add-on-3" name="Add-on-3" value="Asset-Management" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-4"> KPI
+                            <input type="checkbox" id="Add-on-4" name="Add-on-4" value="KPI" >
+                          </label>
+                          <label class="d-flex justify-content-between" for="Add-on-5"> Job Management
+                            <input type="checkbox" id="Add-on-5" name="Add-on-5" value="Job-Management" >
+                          </label>
+                        </div>
+                        <button class="btn btn-primary py-3 px-5"> Enquire </button>
+                      </div>
+                    </div>
+                  </div>
+                   
+                  </div>
+
         </div>
-      </div>
+              
+        
        
       <div id="contact" class="contact-bg hrm-section pt-5 pb-5" id="contact">
         <div class="col-12 text-center mb-5">
@@ -603,7 +397,22 @@
       </footer>
       
     </div>
+    <script>
+      $(document).ready(function() {
 
+$("#owl-demo").owlCarousel({
+items:3,
+loop:true,
+margin:10,
+autoplay:true,
+autoplayTimeout:1500,
+autoPlay: 2500, 
+itemsDesktop : [1199,3],
+itemsDesktopSmall : [979,2]
+});
+
+});
+    </script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="js/scripts-all.js"></script>
     <script src="js/main.js"></script>
